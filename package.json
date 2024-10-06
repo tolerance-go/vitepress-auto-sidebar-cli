@@ -1,0 +1,19 @@
+{
+  "name": "vitepress-auto-sidebar-cli",
+  "version": "0.0.0",
+  "description": "vitepress 自动生成侧边栏的命令行工具",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev --host --open",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9",
+    "vitepress": "^1.3.4"
+  }
+}
